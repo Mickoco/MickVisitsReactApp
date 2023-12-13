@@ -9,6 +9,21 @@ Then start Chrome with these flags:
 
 C:\Users\Admin>"C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-web-security  --user-data-dir=~/chromeTempmeTemp
 
+## Code Layout & Flow
+
+The DisplayVisits component
+
+- presents some filter inputs to the user and a Show Visits button.
+- When Show Visits button is hit it attempts to get the filtered list of Visits from http://mickspatientvisitwebapi.azurewebsites.net/api/Visit/FlterByPostBody
+- It then display the results with the help of the ListVisits component.
+
+The data retrival hooks are not currently used in this version of  the App
+
+
+
+
+
+
 
 
 
