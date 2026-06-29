@@ -3,11 +3,6 @@
 
 To run the App localy on http://localhost:3000/ and access the API ( http://mickspatientvisitwebapi.azurewebsites.net/api/Visit/All ) I had to switch off CORS
 
-To do this I closed all Chrome browsers and opened a Dos Box.
-
-Then start Chrome with these flags:
-
-C:\Users\Admin>"C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-web-security  --user-data-dir=~/chromeTempmeTemp
 
 ## Code Layout & Flow
 
@@ -18,17 +13,6 @@ The DisplayVisits component
 - It then display the results with the help of the ListVisits component.
 
 The data retrival hooks are not currently used in this version of  the App
-
-
-
-
-
-
-
-
-
-
-
 
 
 
